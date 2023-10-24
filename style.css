@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Roboto+Slab&family=Tilt+Neon&display=swap');
+body {
+    background-image: url('img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: 'Tilt Neon', sans-serif;
+}
+
+.header-section{
+    background-color: rgb(93, 81, 130);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 55px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: darkorange; /* Change the color on hover */
+}
+
+.text-content{
+    margin-top: 100px;
+    color: lightpink;
+    padding-left: 20px;   
+    text-shadow: 2px 2px 4px #000;
+}
+
+p{
+    font-family: 'Roboto Slab', serif;
+    margin-top: 40px;
+    padding-left: 25px;
+    color: aquamarine;
+}
+
+.btn1{
+    background-color: darkred;
+    color:aliceblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.btn1:hover{
+     background-color: orangered;
+}
+
+.btn2{
+    background-color: transparent;
+    color:red;
+    border:2px solid #de2639;;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 40px;
+    margin-top: 50px;
+}
